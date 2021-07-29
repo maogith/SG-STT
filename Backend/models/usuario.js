@@ -65,7 +65,7 @@ var esquemaUsuario = mongoose.Schema({
 
 	fechaCumple:{
 		type:Date,
-		default: Date.now
+
 	}
 
 
