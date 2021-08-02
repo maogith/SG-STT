@@ -20,6 +20,6 @@ var TipoReporte = module.exports = mongoose.model('tipo reporte',esquemaTipoRepo
 
 module.exports.get = function (callback,limit){
 
-	Foto.find(callback).limit(limit);
+	TipoReporte.find(callback).limit(limit);
 
 }

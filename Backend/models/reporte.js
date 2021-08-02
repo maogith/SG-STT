@@ -15,12 +15,13 @@ var esquemaReporte = mongoose.Schema({
 	},
 
   fechaRep:{
-		type:Date,
-		default: Date.now
+		type:String,
+		required: true
+		
 	},
 
 	horaRep: {
-		type:Date,
+		type:String,
 		required: true
 	},
 
