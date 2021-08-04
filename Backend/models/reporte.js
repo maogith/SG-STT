@@ -15,9 +15,9 @@ var esquemaReporte = mongoose.Schema({
 	},
 
   fechaRep:{
-		type:String,
+		type:date.now,
 		required: true
-		
+
 	},
 
 	horaRep: {
